@@ -31,10 +31,6 @@ textarea {
     box-sizing: border-box;
 }
 
-textarea {
-    resize: vertical;
-}
-
 .radio-group {
     display: flex;
     gap: 10px;
@@ -59,7 +55,6 @@ button:hover {
     background-color: #333;
 }
 
-/* Small validation message */
 .error {
     display: none;
     font-size: 12px;
@@ -67,7 +62,6 @@ button:hover {
     margin-top: 4px;
 }
 
-/* Show message when invalid after interaction */
 input:invalid:focus + .error,
 input:invalid:not(:focus):not(:placeholder-shown) + .error,
 input[type="checkbox"]:invalid + .error {
