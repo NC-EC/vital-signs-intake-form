@@ -11,42 +11,42 @@
 
 <form id="patient-form" novalidate>
 
-    <fieldset>
+    <field>
         <label for="fullName">Full Name *</label>
         <input type="text" id="fullName" name="fullName" required>
         <small class="error">Name is required</small>
-    </fieldset>
+    </field>
 
-    <fieldset>
+    <field>
         <label for="email">Email *</label>
         <input type="email" id="email" name="email" required>
         <small class="error">Please enter a valid email</small>
-    </fieldset>
+    </field>
 
-    <fieldset>
+    <field>
         <label for="password">Password</label>
         <input type="password" id="password" name="password" minlength="8">
-    </fieldset>
+    </field>
 
-    <fieldset>
+    <field>
         <label for="dob">Date of Birth *</label>
         <input type="text" id="dob" name="dob" placeholder="YYYY-MM-DD" required>
         <small class="error">This field is required</small>
-    </fieldset>
+    </field>
 
-    <fieldset>
+    <field>
         <label for="height">Height (cm)</label>
         <input type="number" id="height" name="height" min="30" max="250">
-    </fieldset>
+    </field>
 
-    <fieldset>
+    <field>
         <legend>Gender</legend>
         <label><input type="radio" name="gender" value="Male"> Male</label>
         <label><input type="radio" name="gender" value="Female"> Female</label>
         <label><input type="radio" name="gender" value="Other"> Other</label>
-    </fieldset>
+    </field>
 
-    <fieldset>
+    <fieldt>
         <label for="bloodType">Blood Type</label>
         <select id="bloodType" name="bloodType">
             <option value="">Select</option>
@@ -57,20 +57,20 @@
             <option value="O-">O-</option>
             <option value="AB+">AB+</option>
         </select>
-    </fieldset>
+    </field>
 
-    <fieldset>
+    <field>
         <label for="history">Medical History</label>
         <textarea id="history" name="history" placeholder="allergies"></textarea>
-    </fieldset>
+    </field>
 
-    <fieldset>
+    <field>
         <label>
             <input type="checkbox" name="consent" required>
             I accept the terms
         </label>
         <small class="error">You must accept the terms</small>
-    </fieldset>
+    </field>
 
     <button type="submit">Register</button>
 
